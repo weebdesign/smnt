@@ -1,0 +1,113 @@
+/* ============================================================================
+            Basic setup
+     =========================================================================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+@font-face {
+     src: url('images/google-font/molle.regular.woff') format('woff');
+     font-family: molle;}
+ 
+ ul li{
+     list-style: none;
+     
+
+ }
+ ul li a{
+     text-decoration: none;
+     color: bisque;
+ }
+ .ul-parent{
+     background-color: black;
+ }
+ 
+ li{
+     width: 300px;
+     color: white;
+    background-color:#055151;
+     padding:15px 0;
+     font-family: molle;
+     margin-top: 5px;
+     margin: auto;
+     margin-top: 5px;
+     text-align: center ;
+     transition: 0.5s;
+     font-weight: 100;
+     transition: 0.5s;
+     
+ }
+ .rahmat .head  {
+    font-size: 30px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #042;
+ }
+ li:hover{ 
+     background-color: rgb(8, 85, 8);
+ }
+ .najat li{
+     background-color: rgb(18, 128, 164);
+ }
+ .najat li:hover{
+     background-color:green;
+ }
+ .magfirat  li{
+    
+     background-color: rgb(7, 65, 7);
+
+ }
+  
+ .magfirat  li:hover{
+     background-color: orange;
+ }
+ .ramadan {
+    background-color:#042;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 0;
+ }
+ .ramadan .icon{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+  
+   
+    
+ }
+ .ramadan .icon i{
+    color: #fff;
+    text-align: center;
+   
+    background-color: #055151;
+    /* width: 30px;
+    height: 30px; */
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.5s;
+   
+ }
+ .ramadan .icon i:hover{
+   background-color: #556;
+   transform: rotate(360deg);
+ }
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
