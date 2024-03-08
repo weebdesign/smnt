@@ -56,7 +56,7 @@
  }
  .magfirat  li{
     
-     background-color: rgb(7, 65, 7);
+     background-color: #0d0420;
 
  }
   
@@ -80,6 +80,12 @@
    
     
  }
+.icon-parent{
+      box-shadow: 1px 1px 1px 1px; 
+       padding: 10px 0; 
+      color: #fff;
+
+  }
  .ramadan .icon i{
     color: #fff;
     text-align: center;
