@@ -103,6 +103,66 @@
    background-color: #556;
    transform: rotate(360deg);
  }
+/* clock code here */
+
+.clock{
+	margin: auto;
+    margin: auto;
+
+    
+}
+ #container{
+   width: 350px;
+    text-align: center;
+    /* background-color: #161F32; */
+    background-color:#4d204c;
+   color: #fff;
+   margin: auto;
+   margin-top: 10px;
+   padding-top: 10px;
+   box-shadow: 5px;
+   border-radius: 5px;
+   
+    /* font-family: molle; */
+  }
+  h1{
+    margin-bottom: 5rem;
+    font-family: "Nanum Myeongjo", serif;
+  }
+  #timer{
+    display: flex;
+  }
+  #container div{
+    background-color:#2d032b;
+    text-align: center;
+    border-radius: 5px;
+    
+   }
+   #container span{
+    background-color:coral;
+     margin-left: 5px; 
+     /* box-sizing: border-box;  */
+     width: 10px;
+    font-size: 40px;
+     color: #fff; 
+       text-align: center;
+      border-radius: 5px;
+      padding:3px 3px;
+      box-shadow: inset 2px 3px 5px;
+    
+     
+  
+    }
+  
+   #container .secoud-span{
+    color: #fff;
+    background-color: crimson;
+    display: block;
+    font-size: 16px;
+    margin-top: 4px;
+     width: 80px;
+     }
+    
  
 
 
