@@ -19,6 +19,13 @@
 
 </head>
 <body>
+     <section class="clock">
+   
+   <div id="container">
+    <h1> Comming Soon <br>Eid-ul-fitar</h1>
+                    <div id="timer"></div>
+                </div>
+                </section>
     
     <div class="u.l-parent">
 
@@ -78,6 +85,21 @@
         </div>
     <marquee style="background-color: #042; width: 300px;margin: auto; display:block;padding: 15px 0;font-family: molle;font-size: 25px;color: gray;margin-top: 5px;" behavior="" direction="">Just simple design for Samanti design by ...</marquee >
 </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+   <script src="resoucese/js/jquery.countdown.min.js"></script>
+ <!-- custom js here -->
+ <script type="text/javascript">
+      $("#timer")
+      .countdown("2024/04/11", function(event) {
+        $(this).html(
+        
+        event.strftime('<div><span >%D</span> <span class="secoud-span">Days</span></div>    <div><span>%H</span><span class="secoud-span">Hours</span></div> <div><span>%M</span><span class="secoud-span">Minutes</span></div> <div><span >%S</span><span class="secoud-span ">Secounds</span></div>')
+        
+        );
+       
+      });
+    </script>
+    
 
     
    
