@@ -6,10 +6,10 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    
 }
-body{
- background-color:#f4f2f9 ;
-}
+
+
 @font-face {
      src: url('images/google-font/molle.regular.woff') format('woff');
      font-family: molle;}
@@ -40,7 +40,7 @@ body{
      transition: 0.5s;
      font-weight: 100;
      transition: 0.5s;
-    border-radius: 5px;
+     border-radius: 5px;
      
  }
  .rahmat .head  {
@@ -49,18 +49,19 @@ body{
     text-align: center;
     background-color: #042;
  }
- .rahmat li:hover{ 
-     background-color: orange;
+ li:hover{ 
+     background-color: rgb(8, 85, 8);
  }
  .najat li{
-     background-color: rgb(18, 128, 16);
+     /* background-color: #110035a3; */
+     background-color: #5100ffa3;
  }
  .najat li:hover{
-     background-color: orange;
+     background-color:green;
  }
  .magfirat  li{
     
-     background-color: #0d0420;
+     background-color: rgb(153, 0, 255);
 
  }
   
@@ -74,20 +75,19 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 15px 0;
-	  border-radius: 5px;
+    border-radius: 5px;
+   
  }
  .ramadan .icon{
     width: 80%;
     margin-left: 10%;
     display: flex;
     justify-content: space-between;
-  
    
-    
- }
+  }
   .icon-parent{
       box-shadow: 1px 1px 1px 1px; 
-      padding: 10px 0;
+       padding: 10px 0; 
       color: #fff;
 
   }
@@ -107,12 +107,14 @@ body{
  .ramadan .icon i:hover{
    background-color: #556;
    transform: rotate(360deg);
- }
+}
 /* clock code here */
 
 .clock{
 	margin: auto;
     margin: auto;
+     /* position: relative; */
+   
 
     
 }
@@ -127,18 +129,23 @@ body{
    padding-top: 10px;
    box-shadow: 5px;
    border-radius: 5px;
-	 position: relative;
+   position: relative;
+   
    
     /* font-family: molle; */
   }
   h1{
-
-     font-family: "Codystar", sans-serif;
+    /* margin-bottom: 5rem; */
+    font-family: "Nanum Myeongjo", serif;
     position: absolute;
     top: 15px;
-    /*left: 23%;*/
-transform: translate(35%);
-	  
+    /* left: 23%; */
+    transform: translate(35%);
+    /* font-family: "Rubik Scribble", system-ui; */
+    font-family: "Codystar", sans-serif;
+    
+    
+    
   }
   #timer{
     display: flex;
@@ -147,6 +154,7 @@ transform: translate(35%);
     background-color:#2d032b;
     text-align: center;
     border-radius: 5px;
+   
     
    }
    #container span{
@@ -173,20 +181,21 @@ transform: translate(35%);
     margin-top: 4px;
      width: 80px;
      }
- .jui {
+    .jui {
         background-color: #4d204c;
        display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(10,1fr);
     }
-     .jui code{
-        font-family: molle;
+     code{
+        /* font-family: molle; */
+        font-family: "Codystar", sans-serif;
         font-size: 18px;
         opacity: 0.03;
-        color:#ffffffb8;
+        color:#ffffff;
       
 
     }
-  .btn-head{
+    .btn-head{
         background-color: #2d032b;
          color: gray;
         width: 350px;
@@ -225,6 +234,7 @@ transform: translate(35%);
     }
     .yellow{
         background-color: yellow;
+      
     }
     .violet{
         background-color: violet;
@@ -234,3 +244,18 @@ transform: translate(35%);
         color: rgb(19, 19, 19);
     }
    
+   
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
